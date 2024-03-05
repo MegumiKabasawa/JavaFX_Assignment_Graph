@@ -13,9 +13,32 @@
 -fx-background-color: #2f665c;
 }
 
+/*Bar chart's title*/
+.axis {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+}
 /* label*/
 .label {
--fx-text-fill: black;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+/* When table's cell selected */
+.table-row-cell:filled:selected {
+    -fx-background-color: #e6c2bf;
+}
+.table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: red;
+}
+.table-row-cell:filled:selected .table-cell:odd {
+    -fx-background-color: #e6c2bf;
+}
+.table-row-cell:filled:selected .table-cell:even {
+    -fx-background-color: #e6c2bf;
 }
 
 /* TableView*/
@@ -33,7 +56,4 @@
     -fx-background-color: #2f665c;
 }
 
-/* When table's cell selected*/
-.table-row-cell:selected {
-    -fx-background-color: #e6c2bf;
-}
+
