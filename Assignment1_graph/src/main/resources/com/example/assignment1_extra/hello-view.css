@@ -1,0 +1,39 @@
+
+/*anchor*/
+#anchor{
+    -fx-background-image: url("1319752.jpeg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+/* BarChart*/
+.chart-bar {
+-fx-font-family : "series";
+-fx-background-color: #2f665c;
+}
+
+/* label*/
+.label {
+-fx-text-fill: black;
+}
+
+/* TableView*/
+.table-view {
+    -fx-background-color: #2f665c;
+}
+/* Table cell*/
+.table-cell {
+    -fx-background-color: #a1bba2;
+    -fx-text-fill: white;
+}
+
+/* Table header*/
+.column-header {
+    -fx-background-color: #2f665c;
+}
+
+/* When table's cell selected*/
+.table-row-cell:selected {
+    -fx-background-color: #e6c2bf;
+}
